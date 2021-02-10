@@ -12,6 +12,17 @@ During the description of the steps to apply the different techniques, the publi
 
 [https://github.com/ASNA/SunFarm](https://github.com/ASNA/SunFarm)
    
+
+## Commits to the Repository are used as Milestones
+
+This Guide shows the **git** *Commit Comment* as a reference for the Step completed. The place in the Guide where you should reference the *commit* is presented by a *footnote*.
+
+A footnote such as:
+~~~
+1 Commit "Navigation menu customization"
+~~~
+
+Indicates that it is recommended to locate the comment *Navigation menu customization* in the commit history and compare the code to the previous commit to show the exact code that was changed.
 <br>
 <br>
 <br>
