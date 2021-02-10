@@ -22,9 +22,61 @@ During Migration *ASNA Monarch Cocoon for Nomad&reg;* will use DDS keywords to e
 
 The DDS keywords had limited space to describe the *Active* aid keys, and the Text was optional, in which case the Migration cannot help to improve the label on the Navigation Menu item.
 
+# Enhancing the Navigation Menu
+
+Recall that this Guide covers only two of the Pages used by the *SunFarm* Customer Application.
+
+Both Pages are described in the **CUSTDSPF** Displayfile which became the ASP.NET Web Page *CUSTDSPF.cshtml" file.
+
+ASP.NET Web Pages are described by the *[Razor Page](https://docs.microsoft.com/en-us/aspnet/core/razor-pages/?view=aspnetcore-5.0&tabs=visual-studio)* syntax, which extends HTML.
+
+ASNA Monarch Nomad&reg; provides *TagHelpers* to repesent DDS equivalent artifacts.
+
+The *TagHelper* that controls the *Active* Functions keys that will be part of the *File* Navigation Menu is:
+
+~~~
+<DdsFunctionKeys />   
+~~~   
+
+You can find this TagHelper typically at the top of the Page, right under the *DdsFile* TagHelper inside the **HTML* form Tag. 
+
+The following are the first *Markup* lines if the *ASP.NET* Page CUSTDSPF.cshtml:
+
+~~~
+<form id="MonarchForm" method="post">
+    <DdsFile DisplayPageModel="Model">
+
+        <DdsFunctionKeys />
+
+        <main role="main" class="display-element-uninitialized">
+           .
+           .
+           .
+~~~   
+
+*TagHelpers* provide access to class Properties via *attributes* in the markup. Whenever the attribute is nor present, its value takes a *Default*. *DdsFunctionKeys* TagHelper has an attribute called:
+
+~~~
+Location
+~~~
+
+The default value of *Location* is **VerticalLeft**. Let's change the value such that the *Navigation Menu* is shown at the bottom of the Page[^1].
+
+~~~
+<DdsFunctionKeys Location="HorizontalBottom" />
+~~~
+
+Build the Application, and run it to see how this small change makes a big difference:
+   
+   
+![Original Page One](/images/dds-funkey-bottom-location.png)
+
 
 <br>
 <br>
 <br>
 
 [Continue ...](/remove-redundant-green-screen-info/)
+
+
+[^1]: Commit "Navigation Menu Customization"
