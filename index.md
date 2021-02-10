@@ -14,3 +14,10 @@ This Guide shows how to Enhance the following Pages:
 2. Customer Maintenance (Option “2”)
 
 In addition, the Site has been branded to show the fictitious company **SunFarm** with its logo on all pages.
+
+
+<br>
+<br>
+<br>
+
+[Continue ...](/about/)

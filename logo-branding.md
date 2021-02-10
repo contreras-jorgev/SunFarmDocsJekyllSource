@@ -22,7 +22,7 @@ The image we use is names "sun-farm", it is a *raster* **png** format image, des
 
 The *Website assets* are static content that may be resuested by Pages, such as images, styles and scripting.
 
-The folder that contains *Website Assets* is called in ASP.Net **wwwroot**
+The folder that contains *Website Assets* is called in ASP.NET **wwwroot**
 
 When an ASP.Net website is created the folder **wwwroot** exists and has a few folders inside:
 
