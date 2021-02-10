@@ -3,27 +3,15 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+This guide shows basic techniques to improve the *Look and Feel* of **ASNA Monarch Nomad** Migrated applications.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+## GitHub Reference Source 
+A public Repository on GitHub is used to document the steps taken while applying the techniques in this guide.
 
-There are currently two themes built on Poole:
+It is highly recommended to use the History View on that Repository, locate the **Commit** comment reffered to in this Guide and compare the source changes with the previous **Commit** to visualize the changes applied in the description of the technique.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+* GitHub Repository: [https://github.com/ASNA/SunFarm](https://github.com/ASNA/SunFarm)
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
 Thanks for reading!
