@@ -15,3 +15,6 @@ It is highly recommended to use the History View on that Repository, locate the 
 
 
 Thanks for reading!
+
+
+[Get started](/overview/)

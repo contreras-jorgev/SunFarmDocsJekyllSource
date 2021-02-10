@@ -11,3 +11,9 @@ During the description of the steps to apply the different techniques, the publi
 ## Reference public GitHub repository
 
 [https://github.com/ASNA/SunFarm](https://github.com/ASNA/SunFarm)
+   
+<br>
+<br>
+<br>
+
+[Continue ...](/guide-objective/)
