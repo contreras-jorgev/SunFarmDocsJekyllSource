@@ -6,6 +6,7 @@ url:                 https://asna.github.io/SunFarm/
 baseurl:             ''
 paginate:            5
 permalink:           pretty
+markdown: kramdown
 
 # About/contact
 author:
