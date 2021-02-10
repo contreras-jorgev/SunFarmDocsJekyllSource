@@ -2,7 +2,7 @@
 layout: page
 ---
 
-*ASNA Monarch Nomad* Applications are Legacy Applications written in RPG/CL languages ob IBMi platform that have been Migrated to Microsoft [ASP.NET Core websites](https://dotnet.microsoft.com/learn/aspnet/what-is-aspnet-core) .
+*ASNA Monarch Nomad&reg;* Applications are Legacy Applications written in RPG/CL languages on IBMi&trade; platform that have been Migrated to Microsoft [ASP.NET Core websites](https://dotnet.microsoft.com/learn/aspnet/what-is-aspnet-core) .
 
 ## Assumptions
 

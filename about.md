@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-This guide shows basic techniques to improve the *Look and Feel* of **ASNA Monarch Nomad** Migrated applications.
+This guide shows basic techniques to improve the *Look and Feel* of **ASNA Monarch Nomad&reg;** Migrated applications.
 
 ## GitHub Reference Source 
 A public Repository on GitHub is used to document the steps taken while applying the techniques in this guide.
