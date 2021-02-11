@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
 This guide shows basic techniques to improve the *Look and Feel* of **ASNA Monarch Nomad&reg;** Migrated applications.
@@ -20,4 +21,4 @@ Thanks for reading!
 <br>
 <br>
 
-[Continue ...](/overview/)
+[Continue ...]({{ site.url }}{{ site.baseurl}}/overview)
