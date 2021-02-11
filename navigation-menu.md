@@ -71,7 +71,50 @@ Build the Application, and run it to see how this small change makes a big diffe
    
 ![Original Page One](/images/dds-funkey-bottom-location.png)
 
+## Improve command names
 
+Each *Active* aid key typically executes a command, with a name that comes from DDS keywords.
+
+As he have mentioned before, Monarch Nomad&reg; Applications may run on *Devices* that do not have keyboard attached. A *command* or *Key* name such as:
+
+~~~
+F3
+~~~
+
+Means nothing to a *Tablet* user who has never seen an IBMi Application.
+
+Better *key* names than:
+1. Enter
+2. F3
+3. PgUp
+4. PgDn
+
+For the menu items for the *DdsFile* in **DSPF** Page, are:
+
+1. Submit
+2. Exit
+3. ◀ Page
+4. Next ▶
+
+All we need to do is change the KeyNames attribute for the **"SFLC"** record, from:
+
+~~~
+<DdsSubfileControl For="SFLC" KeyNames="ENTER 'Enter'; PageUp; PageDown;" ...
+~~~
+
+to
+
+~~~
+<DdsSubfileControl For="SFLC" KeyNames="ENTER 'Submit'; F3 'Exit'; PageUp '◀ Page'; PageDown 'Next ▶';"
+~~~
+
+Build the Application and run it. 
+
+Verify the Navigation Menu changes:
+
+![New Menu options labels](/images/relabel-menu-options.png)
+
+<sub>Notice how *hovering* over the menu name shows the *Active* key associated (useful for Users that have keyboards attached to their device)</sub>
 <br>
 <br>
 <br>

@@ -16,3 +16,7 @@ Typical color effects in IBMi such as *reverse-video* look **horrendous** on a M
 
 These items of informatin are readily available as part of the *Operating System*. Removing these types of redundant items from Legacy Pages, improves significantly their *Modern* look
 
+<br>
+<br>
+<br>
+[Continue ...](/more-natural-font/)
