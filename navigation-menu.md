@@ -34,15 +34,15 @@ ASNA Monarch Nomad&reg; provides *TagHelpers* to repesent DDS equivalent artifac
 
 The *TagHelper* that controls the *Active* Functions keys that will be part of the *File* Navigation Menu is:
 
-~~~
+```html
 <DdsFunctionKeys />   
-~~~   
+```   
 
 You can find this TagHelper typically at the top of the Page, right under the *DdsFile* TagHelper inside the **HTML* form Tag. 
 
 The following are the first *Markup* lines if the *ASP.NET* Page CUSTDSPF.cshtml:
 
-~~~
+```html
 <form id="MonarchForm" method="post">
     <DdsFile DisplayPageModel="Model">
 
@@ -52,7 +52,7 @@ The following are the first *Markup* lines if the *ASP.NET* Page CUSTDSPF.cshtml
            .
            .
            .
-~~~   
+```   
 
 *TagHelpers* provide access to class Properties via *attributes* in the markup. Whenever the attribute is nor present, its value takes a *Default*. *DdsFunctionKeys* TagHelper has an attribute called:
 
@@ -62,9 +62,9 @@ Location
 
 The default value of *Location* is **VerticalLeft**. Let's change the value such that the *Navigation Menu* is shown at the bottom of the Page[^1].
 
-~~~
+```html
 <DdsFunctionKeys Location="HorizontalBottom" />
-~~~
+```
 
 Build the Application, and run it to see how this small change makes a big difference:
    
@@ -98,15 +98,16 @@ For the menu items for the *DdsFile* in **DSPF** Page, are:
 
 All we need to do is change the KeyNames attribute for the **"SFLC"** record, from:
 
-~~~
+```html
 <DdsSubfileControl For="SFLC" KeyNames="ENTER 'Enter'; PageUp; PageDown;" ...
-~~~
+```
 
 to
 
-~~~
+```html
+
 <DdsSubfileControl For="SFLC" KeyNames="ENTER 'Submit'; F3 'Exit'; PageUp '◀ Page'; PageDown 'Next ▶';"
-~~~
+```
 
 Build the Application and run it. 
 

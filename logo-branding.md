@@ -4,7 +4,7 @@ title: Application Logo Branding
 permalink: /logo-branding/
 ---
 
-We want to show the Sun Farm Logo on all pages of the Enhanced Customer Application.
+We want to show the SunFarm Logo on all pages of the Enhanced Customer Application.
 
 # Logo Anatomy 
 The SunFarm Logo consisits of:
@@ -40,7 +40,7 @@ The new Website template adds a file named **site.css** where we add custom styl
 
 We add the following *styles* for elements we are interested on [^1]:
 
-~~~   
+```css  
 #logo-banner {
     height: auto;
     background-color: green;
@@ -69,8 +69,7 @@ We add the following *styles* for elements we are interested on [^1]:
     font-size: medium;
     opacity: 0.5;
 }
-
-~~~   
+```   
 
 Application Pages are Migrated to the *Areas* subfolder within the *CustomerAppSite*. Given that we want **ALL** Pages (in the Customer Area) to display the Logo header, the place where we want to define it, is:
 
@@ -80,7 +79,7 @@ CustomerAppSite\Areas\CustomerAppViews\_ViewStart.cshtml
 
 This file defines the layout shared by all Pages in the view **CustomerAppViews**
 
-~~~
+```html
 @{
     Layout = "_Layout";
 }
@@ -92,7 +91,7 @@ This file defines the layout shared by all Pages in the view **CustomerAppViews*
         <div id="logo-subtitle">always fresh</div>
     </div>
 </div>
-~~~   
+```   
 
 The top header for all pages will contain a *division* designated for the Logo Banner which contains:
 1. An image
